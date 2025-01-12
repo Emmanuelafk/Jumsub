@@ -26,3 +26,7 @@
 .prices{
     @apply w-4/5 flex justify-between font-semibold mx-auto px-2 py-1 mb-2;
 }
+
+.card{
+    @apply bg-prices p-10 rounded-lg h-60 shadow-md hover:shadow-xl;
+}
