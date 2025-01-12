@@ -3,61 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="11-resources/01-css/styles.css">
     <title>Home</title>
 </head>
-<body>
-    <div>
-        <header>
-            <img src="11-resources/02-images/logo.svg" alt="Jumsub">
-            <nav>
-                <li>
-                    <a href="dashboard.html">Home</a>
-                </li>
-                <li>
-                    <a href="data-topup.html">Data</a>
-                </li>
-                <li>
-                    <a href="airtime-topup.html">Airtime</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-                <li>
-                    <a href="signin.html">Sign in</a>
-                </li>
-                <li>
-                    <a href="signup.html">Register</a>
-                </li>
-            </nav>
-        </header>
-        <div>
-            <div>
-                <p>We offer instant affordable recharge of airtime and data bundle</p>
-                <div>
-                    <a href="signin.html">Sign in</a>
-                    <a href="signup.html">Register</a>
+<body class="m-0 p-0 h-screen">
+    <div class="m-0 p-0">
+        <section class="bg-gradient-to-t from-gradient2 to-gradient1 h-screen">
+            <header class="mt-10">
+                <nav class=" flex justify-between w-4/5 mx-auto bg-gradient-to-t from-nav1 to-nav2 shadow-lg shadow-navshadow rounded-3xl py-2 px-5 font-semibold text-gray-700">
+                    <img src="11-resources/02-images/logo.svg" alt="Jumsub">
+                    <ul class="flex items-center">
+                        <li class="ml-10">
+                            <a href="dashboard.html">Home</a>
+                        </li>
+                        <li class="ml-10">
+                            <a href="data-topup.html">Data</a>
+                        </li>
+                        <li class="ml-10">
+                            <a href="airtime-topup.html">Airtime</a>
+                        </li>
+                        <li class="ml-10">
+                            <a href="contact.html">Contact</a>
+                        </li>
+                        <li class="ml-20 mr-10">
+                            <a href="signin.html">Sign in</a>
+                        </li>
+                        <li class="button">
+                            <a href="signup.html">Register</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="my-20 mx-auto w-4/5 grid grid-cols-3">
+                <div class="col-span-2">
+                    <p class="text-6xl font-semibold pr-20 text-gray-800 mb-5">We offer instant affordable recharge of airtime and data bundle</p>
+                    <div class="my-10">
+                        <a href="signin.html" class="text-2xl px-3 py-2 rounded-lg border border-gray-900 mr-2">Sign in</a>
+                        <a href="signup.html" class="bg-primary text-white px-3 py-2 rounded-lg text-2xl border-2 border-primary">Register</a>
+                    </div>
+                </div>
+                <div class="p-6 w-4/5 bg-hero_pattern bg-[url('../../01-pages/01-01-landing/Mask_group.jpg')] bg-cover bg-center bg-blend-overlay mx-auto text-center rounded-3xl">
+                    <form action="">
+                        <input type="tel" class="form placeholder:text-gray-700 focus:outline-0" name="phone" id="phone-no" placeholder="Phone number">
+                        <div class="relative inline-block w-full text-gray-700">
+                            <select name="network" id="network" class="form appearance-none focus:outline-0">
+                                <option value="Network">Network</option>
+                                <option value="MTN">MTN</option>
+                                <option value="Airtel">Airtel</option>
+                                <option value="Glo">Glo</option>
+                                <option value="9Mobile">9Mobile</option>
+                            </select>
+                            <div class="pointer">
+                                <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M7 10l5 5 5-5H7z"/></svg>
+                            </div>
+                        </div>
+                        <div class="relative inline-block w-full text-gray-700">
+                            <select name="plan" id="plan" class="form appearance-none focus:outline-0">
+                                <option value="Data Plan/Airtime">Data Plan/Airtime</option>
+                                <option value="1gb">1gb <span>#270</span></option>
+                                <option value="2gb">2gb <span>#500</span></option>
+                            </select>
+                            <div class="pointer">
+                                <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M7 10l5 5 5-5H7z"/></svg>
+                            </div>
+                        </div>
+                        <input type="submit" class="bg-primary opacity-50 p-2 text-white rounded-lg" value="Purchase!" name="purchase">
+                    </form>
                 </div>
             </div>
-            <div>
-                <form action="">
-                    <input type="tel" name="phone" id="phone-no" placeholder="Phone number">
-                    <select name="network" id="network">
-                        <option value="Network">Network</option>
-                        <option value="MTN">MTN</option>
-                        <option value="Airtel">Airtel</option>
-                        <option value="Glo">Glo</option>
-                        <option value="9Mobile">9Mobile</option>
-                    </select>
-                    <select name="plan" id="plan">
-                        <option value="Data Plan/Airtime">Data Plan/Airtime</option>
-                        <option value="1gb">1gb <span>#270</span></option>
-                        <option value="2gb">2gb <span>#500</span></option>
-                    </select>
-                    <input type="submit" value="Purchase" name="purchase">
-                </form>
-            </div>
-        </div>
-        <div>
+        </section>
+        <section>
             <h2>Product and Services</h2>
             <p>Although some things are difficult, paying your bills shouldn't be one of them.
                 From the convenience of your home or workplace, JUMSUB enables you to pay for the Services
@@ -113,7 +128,7 @@
                     </ul>
                 </div>
             </div>
-        </div>
+        </section>
         <footer>
 
         </footer>

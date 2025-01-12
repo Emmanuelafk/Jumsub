@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build-css":"tailwindcss style.css -o 11-resources/01-css/styles.css"
+    "build-css": "tailwindcss -i style.css -o 11-resources/01-css/styles.css"
   },
   "repository": {
     "type": "git",
@@ -16,8 +16,8 @@
     "url": "https://github.com/Emmanuelafk/Jumsub/issues"
   },
   "homepage": "https://github.com/Emmanuelafk/Jumsub#readme",
-  "description": "",
   "dependencies": {
     "tailwindcss": "^3.4.17"
-  }
+  },
+  "description": ""
 }

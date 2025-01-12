@@ -1,3 +1,16 @@
+/* filepath: /c:/Users/USER/Documents/programming/Jumsub/style.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.button{
+    @apply bg-primary p-2 rounded text-white;
+}
+
+.form{
+    @apply block w-full p-2 rounded-lg mb-2;
+}
+
+.pointer{
+    @apply pointer-events-none absolute top-3 right-0 flex items-center px-4 text-gray-700
+}
