@@ -14,3 +14,15 @@
 .pointer{
     @apply pointer-events-none absolute top-3 right-0 flex items-center px-4 text-gray-700
 }
+
+.price_border{
+    @apply rounded-lg bg-prices relative w-3/5 mx-auto border;
+}
+
+.logo{
+    @apply w-16 absolute -top-6 left-56;
+}
+
+.prices{
+    @apply w-4/5 flex justify-between font-semibold mx-auto px-2 py-1 mb-2;
+}

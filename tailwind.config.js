@@ -16,6 +16,7 @@ module.exports = {
         gradient3:"#FCFCFC",
         navshadow:"#9FB2FF1A",
         prices:"#F7F7F7",
+        mobile:"#BBCD04",
         hero_pattern:"linear-gradient(to top, rgba(255, 255, 255, 1), rgba(159, 178, 255, 1))"
       },
       backgroundImage:{
