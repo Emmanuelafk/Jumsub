@@ -15,9 +15,10 @@ module.exports = {
         nav2:"#F7F7F7",
         gradient3:"#FCFCFC",
         navshadow:"#9FB2FF1A",
+        hero_pattern:"linear-gradient(to top, rgba(255, 255, 255, 1), rgba(159, 178, 255, 1))"
       },
       backgroundImage:{
-        hero_pattern:"linear-gradient(to top, rgba(255, 255, 255, 1), rgba(159, 178, 255, 1))"
+        
       }
     },
   },
